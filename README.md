@@ -1,8 +1,6 @@
 # E-Commerce Big Data Analytics
 
-A big data project that analyzes e-commerce data using MongoDB, HBase, and Apache Spark — each tool doing what it does best.
-
-Built for the AUCA Big Data Analytics final project (June 2026).
+A big data project that analyzes e-commerce data using MongoDB, HBase, and Apache Spark — each tool doing its designated task.
 
 ---
 
@@ -73,7 +71,7 @@ Open `ecommerce_spark_hbase_mongodb.ipynb` in Jupyter and run all cells top to b
 
 ---
 
-## What We Found
+## What the analysis indicates
 
 - Top product made **$343,418** in revenue
 - **44.7%** of shopping sessions end in cart abandonment — big recovery opportunity
@@ -85,4 +83,4 @@ Open `ecommerce_spark_hbase_mongodb.ipynb` in Jupyter and run all cells top to b
 
 ## Note on Data Files
 
-The `data/` folder is not included — the JSON files are too large for GitHub (~3.7GB total). Just run `dataset_generator.py` to reproduce them.
+The `data/` folder is not included — the JSON files are too large for GitHub. Just run `dataset_generator.py` to reproduce them.
