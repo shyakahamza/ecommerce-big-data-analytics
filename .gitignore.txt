@@ -1,0 +1,24 @@
+# Data files — too large for GitHub (~3.7GB)
+data/
+*.json
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Spark temp files
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
